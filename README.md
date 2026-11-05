@@ -1,11 +1,5 @@
-# BungOPang 2
+# 붕어빵 타이쿤 2 · GitHub 웹앱
 
-기획서 기반 농장·붕어빵 타이쿤 웹앱과 기존 Unity 프로젝트를 함께 보관합니다.
+이 폴더의 모든 파일을 GitHub 저장소 **루트**에 올리세요. GitHub Pages에서 배포 소스를 저장소 루트로 설정하면 index.html로 스마트폰 웹 게임을 실행할 수 있습니다. 로컬에서도 index.html을 열어 실행합니다.
 
-## 웹앱
-
-루트 `index.html`을 열어 플레이합니다. 스마트폰 세로 화면과 정적 호스팅을 지원합니다. 게임 규칙은 `web/game.js`, 화면은 `web/style.css`와 `web/v2.css`, 원본 에셋 색인은 `web/asset-manifest.js`와 `web/animation-manifest.js`에 있습니다. 조작과 업로드 방법은 `WEB_실행.md`, 원본 활용 범위는 `web/ASSET_COVERAGE.md`를 참고하세요.
-
-## Unity 프로젝트
-
-Unity 2022.3.16f1에서 열어 `Assets/Scenes/StartScene.unity`를 실행합니다. Unity 프로토타입 범위는 `PROTOTYPE_1차_실행.md`에 적혀 있습니다.
+포함: 웹 실행 코드, 원본 이미지 307개, PSD에서 변환한 이미지 23개, 동물 효과음 6개, 폰트 1개, 붕어빵 틀 이미지, 애니메이션 동작 메타데이터 44개. 원본 Unity C#/프리팹/씬/셰이더와 PSD 원본, .meta 파일은 웹 실행에 필요하지 않아 제외했습니다. 에셋 도감에는 이 압축에 실제 들어 있는 이미지와 파일만 표시합니다. 애니메이션 도감은 원본 클립에서 추출한 시간 정보를 이용한 웹 미리보기입니다.
